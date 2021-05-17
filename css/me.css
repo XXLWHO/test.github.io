@@ -1,0 +1,105 @@
+body.html {
+    height: 100%;
+    margin: 0;
+}
+.f-s {
+    display: flex;
+    justify-content: space-between;
+}
+.main-box {
+    background-color: #fafafa;
+    padding: 0;
+    padding-bottom: 22%;
+}
+
+.arc {
+    background-image: url(../imgs/me_arc.png);
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 3% 4% 0;
+}
+
+.title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 34px;
+    letter-spacing: 1px;
+    margin-bottom: 6%;
+}
+.head-img{
+    margin-top: 10%;
+}
+.f-j-f {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h_img {
+    width: 87px;
+    height: 87px;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.h_name {
+    width: 90px;
+    line-height: 90px;
+}
+
+.h_name h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-me{
+    width: 90%;
+    /* height: 110px; */
+    margin: -39px auto 0;
+    border-radius: 13px;
+}
+
+.function {
+    width: 90%;
+    background-color: #fff;
+    margin: 5% auto 0; 
+    border-radius: 13px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 7%);
+}
+
+.function>div {
+    padding: 5% 5%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.function>div:last-child {
+    border: none;
+}
+
+.consult>div:first-child {
+    width: 20px;
+    height: 20px;
+}
+
+.consult>div:last-child {
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.fun_more {
+    width: 15px;
+    height: 15px;
+}
+
+.support {
+    font-size: 9px;
+    color: #999999;
+    margin-top: 30%;
+}

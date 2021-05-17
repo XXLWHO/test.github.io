@@ -1,0 +1,86 @@
+.import textarea {
+    border: none;
+    outline: none;
+    padding: 1% 1.5%;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.import>div:nth-of-type(2) {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 4%;
+}
+
+.update {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 2.5% 1.5% 5%;
+}
+
+.update img {
+    /* opacity: 0; */
+    /* width: 88px; */
+    width: 100%;
+    height: 100%;
+}
+
+.update>div {
+    position: relative;
+    width: 31%;
+    margin-left: 6px;
+
+}
+
+
+.dashed {
+    position: relative;
+    border: 1px dashed #bebebe;
+    /* width: 88px !important; */
+    /* height: 88px !important; */
+}
+
+.file {
+    opacity: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.h_line {
+    position: absolute;
+    width: 34px;
+    height: 4px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    top: 48%;
+    left: 34%;
+}
+
+.s_line {
+    position: absolute;
+    height: 34px;
+    width: 4px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    left: 48%;
+    top: 34%;
+}
+
+.update_pic span {
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #bebebe;
+    top: -7px;
+    right: -7px;
+    background-image: url(../imgs/cancel.png);
+    background-size: 42% 42%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+}

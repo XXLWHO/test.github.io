@@ -1,0 +1,390 @@
+.main-box {
+    padding: 0;
+    height: auto;
+}
+.banner-img{
+    border-radius: 0;
+}
+.page_h {
+    padding: 5% 3% ;
+}
+
+.focus {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pic {
+    /* display: flex; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 600%; */
+    height: 100%;
+}
+
+.pic li {
+    height: 100%;
+}
+
+.pic video {
+    width: 100%;
+    height: 100%;
+}
+
+.oll {
+    position: absolute;
+    left: 47%;
+}
+
+.oll li {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    border: 1px solid rgba(0, 0, 0, .05);
+    background: #f7f7f7;
+    z-index: 999;
+    border-radius: 50%;
+    float: left;
+    opacity: 0.6;
+}
+
+.oll .current {
+    width: 20px;
+    height: 9px;
+    border-radius: 20px !important;
+    background: #fff;
+    opacity: 1;
+}
+
+.play {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 2.6%;
+    border-radius: 50%;
+    top: 10px;
+    left: 7.2%;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-left: 28px solid #fff;
+    border-bottom: 18px solid transparent;
+    margin: 20% 36%;
+}
+
+.flow {
+    width: 100%;
+    padding: 7% 5% 7%;
+}
+.flow img{
+    width: 39px;
+    height: 39px;
+    vertical-align: middle;
+}
+
+.flow>div {
+    /* width: 14%; */
+    height: 60px;
+}
+
+.flow>div:nth-of-type(odd)>div {
+    font-size: 13px;
+}
+
+.flow>div:nth-of-type(odd)>div:first-child {
+    width: 100%;
+    height: 73.35%;
+    margin: 0 auto 0;
+    padding: 13%;
+}
+
+.flow>div:nth-of-type(even) {
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 2.8%;
+}
+
+.flow>div:nth-of-type(even) div {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #97d0ff;
+    margin: 0 1px;
+}
+
+.address {
+    width: 100%;
+    padding: 5% 0;
+    background-color: #EEEEEE;
+}
+
+.address>div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #fff;
+}
+
+.address p {
+    font-size: 14px;
+    color: #888888;
+    letter-spacing: 1px;
+}
+
+.address>div>:first-child {
+    padding: 5% 1% 5% 4%;
+}
+
+.add_logo {
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 8%;
+}
+
+.add_name {
+    padding: 5% 0;
+    text-align: left;
+    width: 52%;
+}
+
+.add_name h3 {
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+}
+
+.add_name>p {
+    border-right: 1px solid #888888;
+}
+
+.distance {
+    padding: 11.5% 15px 5%;
+}
+
+.content {
+    padding: 3% 4%;
+}
+
+.content p {
+    color: #333;
+    font-size: 17px;
+    text-align: left;
+}
+
+.detail_pic {
+    width: 100%;
+    margin-top: 6%;
+}
+
+.detail_tab {
+    position: fixed;
+    bottom: -2px;
+    left: 0;
+    padding: 3% 5%;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+.d_collect img,
+.d_price img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.d_button {
+    width: 68%;
+    padding-left: 5%;
+}
+
+.d_collect>div:first-child,
+.d_price>div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.d_collect>div:last-child,
+.d_price>div:last-child {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+}
+.d_button>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d_button>div>button {
+    color: #fff;
+    font-size: 13px;
+    height: 100%;
+    width: 50%;
+    border: none;
+    outline: none;
+    line-height: 100%;
+}
+
+.d_button>div>button:first-child {
+    background-color: #2279F6;
+}
+
+.d_button>div>button:last-child {
+    background: linear-gradient(0deg, #2279F6, #2CA4FE);
+}
+
+.detail {
+    width: 100%;
+}
+
+
+
+.consult_alert {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 45%;
+    width: 100%;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 2px;
+}
+
+.consult_alert>div {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 2% 5%;
+}
+
+.head_photo {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    margin: 0 3%;
+}
+
+.consult_alert h5 {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.consult_one span,
+.consult_tow span {
+    display: inline-block;
+    padding: 0 3%;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic 
+}
+
+.consult_one span {
+    background-color: #bcd7fc;
+    color: #2279f6;
+    font-weight: lighter;
+}
+
+.consult_alert p {
+    font-size: 13px;
+    color: #bebebe;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    font-weight: lighter;
+    margin-top: 7px;
+
+}
+
+.consult_tow span {
+    background-color: #fec2d7;
+    color: #fc357b;
+    font-weight: lighter;
+}
+
+.close {
+    display: block !important;
+    width: 100%;
+    text-align: right !important;
+}
+
+.close img {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+}
+
+.consult_btn {
+    width: 95%;
+    height: 10%;
+    background: linear-gradient(0deg, #2279F6, #2CA4FE);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 30%;
+}
+.detail_pic img{
+    margin-bottom: 57px;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.pop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+   
+}
+.mask-inner{
+    background-color: rosybrown;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    left: 0 ;
+    right: 0;
+    z-index: 100;
+}
+.r-dui{
+    flex: 1;
+    justify-content: flex-end;
+}
+.r-dui img{
+    width: 24px;
+    height: 24px;
+}
+.dot-box{
+    position: relative;
+}
+.dot{
+    position: absolute;
+    right: 3px;
+    top: -3px;
+    width: 12px;
+    height:12px;
+    background: #FC2525;
+    border-radius: 50%;
+    color: #fff;
+    padding: 2%;
+    font-size: 12px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

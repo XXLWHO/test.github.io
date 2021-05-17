@@ -1,0 +1,8 @@
+.e_chat {
+    width: 16%;
+}
+
+.e_chat>div {
+    width: 40%;
+    margin: 84% auto 0;
+}

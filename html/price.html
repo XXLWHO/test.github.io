@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <title>询价</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/price.css">
+</head>
+
+<body>
+    <div class="bg">
+    </div>
+     <!-- 悬浮 s -->
+<div class="up-box" id="dragAsk" draggable="true"> 
+    <img 
+    class="up-img"
+    src="../imgs/float.png" alt="">
+</div>
+<!-- 悬浮 e -->
+    <div class="main-box">
+        <!-- 底部tab s -->
+        <div class="bottom-tab">
+            <!-- 立即询价 按钮 s -->
+            <div class="btn-box f-a-j">
+                <div class="btn-info f-a-j">
+                    <div class= "info-l f-a-j">
+                        <input id="allcount" class="all-radio" type="checkbox" hidden/>
+                        <label  for="allcount" class="all-choose"  ></label >
+                    </div>
+                    <div class="info-r f-a">
+                        <div class="count" id="count-text">已选(0)</div>
+                    </div>
+                    </div>
+                <div class="btn-cic ">
+                    <button class="btn-del" id ="delete">
+                        删除
+                    </button>
+                    <button class="btn-b" id="btn-b">立即询价</button>
+                </div>
+            </div>
+            <!-- 立即询价 按钮 e -->
+            <ul class="bot-ul f-j-s" id="tab">
+                <li class=" f-j" onclick="window.location='index.html'">
+                    <div class="tab-imgBox">
+                        <img class="tab-img" src="../imgs/index.png" alt="">
+                    </div>
+                    <div class="tab-text  ">
+                        首页
+                    </div>
+                </li>
+                <li class=" f-j" onclick="window.location='class.html'">
+                    <div class="tab-imgBox">
+                        <img class="tab-img" src="../imgs/class.png" alt="">
+                    </div>
+                    <div class="tab-text ">
+                        分类
+                    </div>
+                </li>
+                <li class=" f-j" onclick="window.location='price.html'">
+                    <div class="tab-imgBox">
+                        <img class="tab-img" src="../imgs/priceed.png" alt="">
+                    </div>
+                    <div class="tab-text tab-ative">
+                        询价
+                    </div>
+                </li>
+                <li class=" f-j" onclick="window.location='me.html'">
+                    <div class="tab-imgBox">
+                        <img class="tab-img" src="../imgs/me.png" alt="">
+                    </div>
+                    <div class="tab-text">
+                        我的
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="title">
+            询价单
+        </div> -->
+        <div class="title-count f-j-p">
+            <div class="t-1">
+                共3件商品
+            </div>
+            <div class="t-2">
+                <img src="../imgs/edit.png" alt="" id="delImg">
+                <text style="display: none;color: #fff;font-size: 12px;" id="delFin"> 完成</text>
+            </div>
+        </div>
+        <div class="info-box">
+            <div class="info-title">
+                <img class="info-icon" src="../imgs/shop.png" alt="">
+                点拓体育馆
+            </div>
+            <div class="info-inner-box">
+                <div class="info-list">
+                    <div class="info-item f">
+                        <div class="item-lef f-a">
+                            <input id="radio1" class="cke" type="checkbox" hidden/>
+                            <label  for="radio1" class="choose"></label >
+                        </div>
+                        <div class="item-mid">
+                            <img src="../imgs/zj.png" alt="">
+                        </div>
+                        <div class="item-rig">
+                            <div class="item-title">
+                                智能更衣柜子系统
+                            </div>
+                            <div class="item-c-box">
+                                <div class="item-content">
+                                    智能更衣柜区别于传统更衣柜之处
+                                    在于：传统更衣柜是钥匙与锁一对
+                                    一的关系，独立不联网。而智能更
+                                    衣柜的智能之处在于可以利用一...
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="info-item f">
+                        <div class="item-lef f-a">
+                            <input id="radio2" class="cke" type="checkbox" hidden/>
+                            <label  for="radio2" class="choose"></label >
+                        </div>
+                        <div class="item-mid">
+                            <img src="../imgs/zj.png" alt="">
+                        </div>
+                        <div class="item-rig">
+                            <div class="item-title">
+                                智能更衣柜子系统
+                            </div>
+                            <div class="item-c-box">
+                                <div class="item-content">
+                                    智能更衣柜区别于传统更衣柜之处
+                                    在于：传统更衣柜是钥匙与锁一对
+                                    一的关系，独立不联网。而智能更
+                                    衣柜的智能之处在于可以利用一...
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="info-item f">
+                        <div class="item-lef f-a">
+                            <input id="radio3" class="cke" type="checkbox" hidden/>
+                            <label  for="radio3" class="choose" ></label >
+                        </div>
+                        <div class="item-mid">
+                            <img src="../imgs/zj.png" alt="">
+                        </div>
+                        <div class="item-rig">
+                            <div class="item-title">
+                                智能更衣柜子系统
+                            </div>
+                            <div class="item-c-box">
+                                <div class="item-content">
+                                    智能更衣柜区别于传统更衣柜之处
+                                    在于：传统更衣柜是钥匙与锁一对
+                                    一的关系，独立不联网。而智能更
+                                    衣柜的智能之处在于可以利用一...
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="info-null">
+                    <div class="null-img">
+                        <img src="../imgs/kong.png" alt="">
+                        <h4 class="null-title">询价单空空如也</h4>
+                        <button class="null-btn">
+                            去逛逛
+                        </button>
+                    </div>
+                </div>
+            </div>
+         
+        
+        </div>
+       <script src="../js/price.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+
+</body>
+
+</html>

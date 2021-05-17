@@ -1,0 +1,14 @@
+.a_collect {
+    width: 16%;
+    padding-top: 10%;
+}
+
+.a_collect>div:first-child {
+    width: 38%;
+    margin: 5% auto 0;
+}
+
+.a_collect>div:last-child {
+    font-size: 12px;
+    color: #333;
+}

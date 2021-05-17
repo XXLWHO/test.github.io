@@ -1,0 +1,72 @@
+body,html {
+    height: 100%;
+}
+
+.main-box {
+    height: 100%;
+}
+.f-s{
+    display: flex;
+    justify-content: space-between;
+}
+.page_h {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.back {
+    width: 20px;
+    height: 20px;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.title {
+    text-align: left;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    margin-left: 7px;
+}
+
+.logo_main {
+    width: 100%;
+    padding: 10% 0 15%;
+}
+
+.logo {
+    width: 35%;
+    margin: 0 auto 0;
+}
+
+.a_function>div {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 4.5% 2%;
+}
+
+.newest {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.update_more,
+.protocol_more {
+    width: 13px;
+    height: 13px;
+}
+
+.protocol>div:first-child,
+.update>div:first-child {
+    font-size: 14px;
+    color: #000;
+}
+
+.newest>div:first-child {
+    color: #bebebe;
+    font-size: 14px;
+    margin-right: 6px;
+}
