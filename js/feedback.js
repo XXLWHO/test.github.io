@@ -1,7 +1,3 @@
-var back = document.querySelector('.back')
-back.addEventListener('click', function () {
-    window.history.go(-1)
-})
 
 var file = document.querySelector(".file")
 // console.log(file);

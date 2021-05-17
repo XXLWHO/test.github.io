@@ -32,3 +32,7 @@ var cooperation = document.querySelector('.cooperationn')
 cooperation.addEventListener('click', function() {
     window.location = 'cooperation.html'
 })
+document.querySelector(".up-img").onclick = function () {
+    sessionStorage.setItem("fromBase",true)
+    window.location = "details.html";
+};

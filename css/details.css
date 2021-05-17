@@ -122,45 +122,35 @@
     background-color: #EEEEEE;
 }
 
-.address>div {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #fff;
-}
-
 .address p {
-    font-size: 14px;
+    font-size: 12px;
     color: #888888;
     letter-spacing: 1px;
 }
-
-.address>div>:first-child {
-    padding: 5% 1% 5% 4%;
+.add-inner{
+    background-color: #fff;
+    
 }
-
 .add_logo {
+    padding: 5% 3%;
+    flex: 1;
     width: 80%;
+    height: 80%;
     border-radius: 50%;
-    overflow: hidden;
-    margin-top: 8%;
 }
-
-.add_name {
-    padding: 5% 0;
-    text-align: left;
-    width: 52%;
+.add_name{
+    padding: 3% 2%;
 }
-
 .add_name h3 {
+    text-align: left;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 15px;
     margin-bottom: 2%;
     letter-spacing: 1px;
 }
 
 .add_name>p {
-    border-right: 1px solid #888888;
+    text-align: left;
 }
 
 .distance {
@@ -173,8 +163,10 @@
 
 .content p {
     color: #333;
-    font-size: 17px;
+    font-size: 14px;
     text-align: left;
+    word-break: break-all;
+    white-space: pre-wrap;
 }
 
 .detail_pic {
@@ -326,6 +318,8 @@
 }
 
 .consult_btn {
+    text-align: center;
+    text-decoration: none;
     width: 95%;
     height: 10%;
     background: linear-gradient(0deg, #2279F6, #2CA4FE);
@@ -388,4 +382,19 @@
     display: none;
     justify-content: center;
     align-items: center;
+}
+.msg-box{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    transform: translateX(-100%);
+    transform: translateY(50%);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.msg-box img{
+    width: 30px;
+    height: 30px;
 }

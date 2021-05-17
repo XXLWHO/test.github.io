@@ -49,7 +49,7 @@
     border-radius: 20px;
     padding: 5% 3%;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 115px;
     box-shadow: 0px 0px 13px rgb(0 0 0 / 7%);
 }
 
@@ -94,7 +94,6 @@
     min-width: 130px;
     height: 170px;
     border-radius: 15px;
-    box-shadow: 3px 4px 5px #2ca4fe26;
 }
 
 .item-rig {

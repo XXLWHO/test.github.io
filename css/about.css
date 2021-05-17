@@ -21,7 +21,7 @@ body,html {
 
 img {
     width: 100%;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .title {
@@ -29,7 +29,7 @@ img {
     font-size: 18px;
     color: #333333;
     letter-spacing: 1px;
-    margin-bottom: 5%;
+    margin-bottom:0;
     margin-left: 7px;
 }
 
@@ -39,7 +39,7 @@ img {
 }
 
 .logo {
-    width: 35%;
+    width: 52%;
     margin: 0 auto 0;
 }
 
