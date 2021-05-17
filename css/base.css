@@ -80,7 +80,7 @@ body {
 .up-box{
     position: fixed;
     right: 0;
-    bottom: 120px;
+    bottom: 88px;
     width: 80px;
     height: 100px;
     z-index: 9999;
