@@ -3,6 +3,7 @@
     del();
 function dragAsk(){
     document.querySelector(".btn-b").onclick = function () {
+        sessionStorage.setItem("fromBase",true)
         window.location = "details.html";
     };
 }
