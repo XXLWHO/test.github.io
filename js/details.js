@@ -2,7 +2,6 @@
 var d_enquiry = document.querySelector('.d_enquiry')
 var mask = document.querySelector('.mask')
 var pop = document.querySelector('.pop')
-var pop = document.querySelector('.pop')
 var close = document.querySelector('.close')
 var ask = document.querySelector(".msg-box")
 d_enquiry.addEventListener('click', function () {
