@@ -10,6 +10,7 @@ body.html {
     background-color: #fafafa;
     padding: 0;
     padding-bottom: 22%;
+    height: 100vh;
 }
 
 .arc {
@@ -98,7 +99,7 @@ img {
 .support {
     font-size: 9px;
     color: #999999;
-    margin-top: 30%;
+    margin-top: 8px;
 }
 .consult_btn {
     bottom: 84px;
