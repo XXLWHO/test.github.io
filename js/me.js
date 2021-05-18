@@ -1,6 +1,6 @@
 // 上部蓝色背景高度
 var arcwidth = document.body.clientWidth;
-archeight = (arcwidth *  0.56) + 'px';
+archeight = (arcwidth *  0.4) + 'px';
 document.querySelector('.arc').style.height = archeight;
 
 var enquiry = document.querySelector('.enquiry')
@@ -32,7 +32,18 @@ var cooperation = document.querySelector('.cooperationn')
 cooperation.addEventListener('click', function() {
     window.location = 'cooperation.html'
 })
+
+// 立即咨询
+var mask = document.querySelector('.mask')
+var pop = document.querySelector('.pop')
+var close = document.querySelector('.close')
+close.addEventListener('click', function () {
+    mask.style.display = 'none'
+})
+pop.addEventListener('click', function () {
+    mask.style.display = 'none'
+})
 document.querySelector(".up-img").onclick = function () {
-    sessionStorage.setItem("fromBase",true)
-    window.location = "details.html";
+    mask.style.display = 'block'
 };
+

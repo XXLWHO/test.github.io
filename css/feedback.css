@@ -84,3 +84,7 @@
     background-position: center;
     z-index: 999;
 }
+.update-before::before{
+    content:"*" ;
+    color:red;
+}

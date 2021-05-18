@@ -81,8 +81,8 @@
     padding: 7% 5% 7%;
 }
 .flow img{
-    width: 39px;
-    height: 39px;
+    width: 35px;
+    height: 35px;
     vertical-align: middle;
 }
 
@@ -397,4 +397,21 @@
 .msg-box img{
     width: 30px;
     height: 30px;
+}
+.img-bg{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.img-scale{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }

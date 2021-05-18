@@ -2,6 +2,7 @@
 var d_enquiry = document.querySelector('.d_enquiry')
 var mask = document.querySelector('.mask')
 var pop = document.querySelector('.pop')
+var pop = document.querySelector('.pop')
 var close = document.querySelector('.close')
 var ask = document.querySelector(".msg-box")
 d_enquiry.addEventListener('click', function () {
@@ -16,7 +17,6 @@ close.addEventListener('click', function () {
 pop.addEventListener('click', function () {
     mask.style.display = 'none'
 })
-
 // 已收藏
 var no = document.querySelector('.no');
 var yes = document.querySelector('.yes');
@@ -41,4 +41,15 @@ let flag = sessionStorage.getItem("fromBase");
 if(flag){
         mask.style.display = 'block'
         sessionStorage.removeItem("fromBase")
+}
+// 放大图片
+document.querySelector(".banner-img").onclick = function(){
+    if(this.className === "banner-img img-scale"){
+        this.parentNode.parentNode.className = "";
+        this.className = "banner-img ";
+    }else{
+        this.parentNode.parentNode.className = "img-bg";
+        this.className = "banner-img img-scale";
+    }
+ 
 }
