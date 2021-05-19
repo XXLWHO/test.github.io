@@ -1,14 +1,14 @@
 list = [
     [
-        "../imgs/图层 20.png",
-        "../imgs/图层 21.png",
-        "../imgs/图层 22.png"
+        "../imgs/1-20.png",
+        "../imgs/1-21.png",
+        "../imgs/1-22.png"
     ],
     [
         // "09年台湾残障奥运会跳水池",
-        "../imgs/图层 23.png",
-        "../imgs/图层 24.png",
-        "../imgs/图层 25.png"
+        "../imgs/1-23.png",
+        "../imgs/1-24.png",
+        "../imgs/1-25.png"
     ],
     [
         "../imgs/jt.png",
@@ -107,7 +107,7 @@ let items = document.getElementsByClassName("detail-item");
 for (item of items) {
     item.onclick = function () {
         if (this.className === "img-bg") {
-            this.className = "detail-item";
+            this.className = "detail-item de-img";
             this.children[0].className = "";
         } else {
             this.className = "img-bg";
