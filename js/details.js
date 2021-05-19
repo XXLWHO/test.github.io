@@ -42,16 +42,16 @@ if (flag) {
     sessionStorage.removeItem("fromBase")
 }
 // 放大图片
-// document.querySelector(".banner-img").onclick = function () {
-//     if (this.className === "banner-img img-scale") {
-//         this.parentNode.parentNode.className = "";
-//         this.className = "banner-img ";
-//     } else {
-//         this.parentNode.parentNode.className = "img-bg";
-//         this.className = "banner-img img-scale";
-//     }
+document.querySelector(".banner-img").onclick = function () {
+    if (this.className === "banner-img img-scale") {
+        this.parentNode.parentNode.className = "";
+        this.className = "banner-img ";
+    } else {
+        this.parentNode.parentNode.className = "img-bg";
+        this.className = "banner-img img-scale";
+    }
 
-// }
+}
 let str = ``;
 list = [
     [
@@ -142,7 +142,7 @@ let len = one.length;
 console.log(len);
 if(one[0].includes("mp4")){
     str = `
-    <video   class="vid" controls="controls" style="width:100%;height: 100%;object-fit: fill;">
+    <video   class="vid" controls="controls" style="width:50%;height: 10.5em;object-fit: fill;margin:0 auto">
     <source src="${one[0]}" type="video/mp4">
 </video>
     `
