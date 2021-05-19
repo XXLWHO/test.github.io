@@ -4,6 +4,7 @@ function goDetail(){
     let box = document.getElementsByClassName("go-detail");
     for(const one of box){
         one.onclick = function(){
+            sessionStorage.setItem("index-id",one.id)
             window.location = "indexDetail.html"
         }
     }

@@ -5,6 +5,10 @@
 .banner-img{
     border-radius: 0;
 }
+.banner-img-box {
+    height: 13.5em;
+    overflow: scroll;
+}
 .page_h {
     padding: 5% 3% ;
 }
@@ -237,7 +241,10 @@
 .detail {
     width: 100%;
 }
-
+.detail img{
+    width: 100%;
+    margin-bottom: 50px;
+}
 
 
 .consult_alert {

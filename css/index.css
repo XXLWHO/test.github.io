@@ -223,8 +223,6 @@ letter-spacing: 1px;
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    word-wrap: break-word;
-    white-space: pre-wrap;
 }
 .detail-img{
     width: 100%;

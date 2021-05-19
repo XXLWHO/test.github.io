@@ -41,6 +41,7 @@ function proDetail(){
     let pros = document.getElementsByClassName("right-img-box");
     for(const pro of pros){
         pro.onclick = function(){
+            sessionStorage.setItem("class-id",this.id);
             window.location.href  = "details.html"
         }
     }
